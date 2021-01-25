@@ -1,0 +1,22 @@
+{
+  "name": "nirgun.co.in",
+  "version": "0.0.1",
+  "description": "Nirgun Family Website",
+  "main": "index.js",
+  "authors": {
+    "name": "Prashant Nirgun",
+    "email": ""
+  },
+  "repository": "Famly/nirgun.co.in",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "markdown-it-imsize": "^2.0.1"
+  }
+}
