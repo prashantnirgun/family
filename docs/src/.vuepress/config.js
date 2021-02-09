@@ -54,10 +54,18 @@ module.exports = {
           title: 'Member',
           collapsable: false,
           children: [
-           { title: 'Prashant',                              
+           { title: 'Prashant',  
+           collapsable: false,                            
                 children: [
                   '/family/prashant/about',
                   '/family/prashant/timeline'
+                ]
+            },
+            { title: 'Swara',  
+            collapsable: false,                            
+                children: [
+                  '/family/swara/about',
+                  '/family/swara/timeline'
                 ]
             }
           ]
